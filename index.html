@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Lista de Compras de Supermercado</h1>
+    <div class="form-row">
+      <div class="col-md-8">
+        <input type="text" id="item" class="form-control" placeholder="Ingrese un artículo">
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-success btn-block" onclick="addItem()">Agregar</button>
+      </div>
+    </div>
+    <ul id="shoppingList" class="list-group mt-3">
+      <!-- Aquí se agregarán los elementos de la lista dinámicamente -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
